@@ -1,4 +1,24 @@
-/* line 4, ../scss/style.scss */
+* {
+  /*outline: 1px dotted red;*/
+  }
+
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 50px;
+}
+
+.btn-xlg {
+  height: 100px;
+  width: 160px;
+}
+
+  /* line 4, ../scss/style.scss */
 .colorBox {
   display: flex;
 }
@@ -7,28 +27,28 @@
   display: inline-block;
   width: 25%;
   height: 10px;
-  background-color: #fffbbd;
+  background-color: #A7DFFF;
 }
 /* line 12, ../scss/style.scss */
 .colorBox .orange {
   display: block;
   width: 25%;
   height: 10px;
-  background-color: #ffd896;
+  background-color: #78CEFF;
 }
 /* line 18, ../scss/style.scss */
 .colorBox .blue {
   display: inline-block;
   width: 25%;
   height: 10px;
-  background-color: #70b9da;
+  background-color: #66AFD9;
 }
 /* line 24, ../scss/style.scss */
 .colorBox .lightBlue {
   display: inline-block;
   width: 25%;
   height: 10px;
-  background-color: #99e6e9;
+  background-color: #42718C;
 }
 
 /* line 31, ../scss/style.scss */
@@ -48,10 +68,7 @@
   }
 }
 /* line 43, ../scss/style.scss */
-.jumbotron a {
-  border: 1px solid #70b9da;
-  background-color: #70b9da;
-}
+
 /* line 47, ../scss/style.scss */
 .jumbotron img {
   margin: 0 auto !important;
@@ -70,25 +87,18 @@
   margin: 0 auto;
 }
 
-/* line 61, ../scss/style.scss */
-.feature {
-  margin: 50px 0;
-  font-family: 'Nunito', sans-serif;
-  color: #787878 !important;
+.center {
+  text-align: center;
 }
-/* line 65, ../scss/style.scss */
-.feature img {
-  display: block;
-  width: 50%;
-  margin: auto;
-}
+
+
 
 /* line 71, ../scss/style.scss */
 .orangeFeature {
   padding: 40px 0;
   font-family: 'Nunito', sans-serif;
   color: white;
-  background-color: #ffd896;
+  background-color: #78CEFF;
 }
 /* line 76, ../scss/style.scss */
 .orangeFeature img {
