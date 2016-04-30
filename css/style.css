@@ -1,6 +1,10 @@
 * {
   /*outline: 1px dotted red;*/
   }
+.top {
+  padding-top: 80px;
+}
+
 
 
 .flex {
@@ -61,14 +65,6 @@
 .jumbotron .cta {
   text-align: center;
 }
-@media (min-width: 992px) {
-  /* line 39, ../scss/style.scss */
-  .jumbotron .cta {
-    text-align: left;
-  }
-}
-/* line 43, ../scss/style.scss */
-
 /* line 47, ../scss/style.scss */
 .jumbotron img {
   margin: 0 auto !important;
